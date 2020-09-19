@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <center>
+  <h1 id="level-title">Press A Key to Start</h1>
+<!-- The Modal -->
+  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+            <div class="modal-content">
+              <h3 style="text-align: center;">Welcome To Simon   </h3>
+              <span class="close" id="close">&times;</span>
+              <div id="instruction-list">
+                <ul >
+                  <li>To play, press any key on your keyboard</li>
+                  <li>Watch and listen as the four buttons light up randomly and produce different sounds.</li>
+                  <li>Press the buttons in the same order to progress to the next round.</li>
+                  <li>With each round, the number of buttons to press increases, as does the challange.</li>
+                  <li>If wrong, restart</li>
+                  <li>Keep Track of the buttons pressed and sharpen your Brain.</li>
+                  <li>Enjoy the Game 🎮</li>
+                </ul>
+                </div> 
+            </div>
+  </div>
+  <!-- <div class="grid-container">
+
+    <div class="grid-child purple">
+        Grid Column 1
+    </div>
+
+    <div class="grid-child green">
+        Grid Column 2
+    </div>
+  
+</div> -->
+  <div class="play-buttons">
+      
+          <div class="play-child play-div">
+            <button id="play">Play</button>
+          </div>
+          
+          <!-- <div class="play-child restart-div">
+            <button id="restart">Reset</button>
+          </div> -->
+          
+  </div>  
+  <div class="container-fluid">
+    
+    <div class="row">
+      
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+      
+    </div>
+
+    <div class="row">
+      
+      <div type="button" id="yellow" class="btn yellow ">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+      
+    </div>
+    </center>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="game.js"></script>
+  </div>
+
+
+</body>
+
+</html>
