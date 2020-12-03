@@ -123,6 +123,21 @@ body {
   grid-gap: 100px;
 }
 
+/* COntact ME */
+.contact-me{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #FEF2BF;
+  
+}
+a:link{
+  text-decoration: none;
+  
+}
+a:hover{
+  color: #00ffee;
+}
 
 /* Game Buttons */
 
@@ -154,6 +169,7 @@ body {
     border-radius: 20%;
   }
 }
+
 @media (max-width: 425px){
   .btn {
     margin: 12px;
